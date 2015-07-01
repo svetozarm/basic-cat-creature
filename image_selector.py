@@ -58,7 +58,7 @@ class ImageSelector(Tkinter.Tk):
         h = ratio * ih
 
         if h > wh:
-            ratio = float(ww) / float(iw)
+            ratio = float(wh) / float(ih)
             w = ratio * iw
             h = ratio * ih
 
